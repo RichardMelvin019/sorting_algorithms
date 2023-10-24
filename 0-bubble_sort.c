@@ -13,14 +13,12 @@ void swap(int *a, int *b)
 	*a = *b;
 	*b = c;
 }
-
 /**
- * bubble_sort - Sort an array of integers in ascending order.
- * @array: An array of integers to sort.
- * @size: The size of the array.
- *
- * Description: Prints the array after each swap.
- */
+ * bubble_sort - sorts an array of integers in ascending order
+ * @array: array
+ * @size: size of array
+ * Return: void
+*/
 void bubble_sort(int *array, size_t size)
 {
 	size_t x, lenght = size;
